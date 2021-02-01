@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Times, serif;
+}
+.mapdiv{
+    width: 75%;
+    margin: auto;
+}
+
+.mapdiv path {
+fill: rgb(38, 199, 255);
+stroke: rgb(0, 0, 0);
+stroke-width: 4px;
+transition: fill 0.3s;
+}
+
+.mapdiv :hover{
+    fill: rgb(0, 0, 0);
+    fill-opacity: initial;
+    -ms-zoom-animation: default;
+}
